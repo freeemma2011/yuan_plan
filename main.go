@@ -12,6 +12,6 @@ func main() {
 		c.JSON(200, gin.H{
 			"message": "pong",
 		})
-	})      //默认开启8080，如果需要开启其他的，可以设置r.Run(9090)
+	}) //默认开启8080，如果需要开启其他的，可以设置r.Run(9090)
 	r.Run() // listen and serve on 0.0.0.0:8080
 }
